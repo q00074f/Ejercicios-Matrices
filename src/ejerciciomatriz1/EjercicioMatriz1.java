@@ -17,7 +17,7 @@ public class EjercicioMatriz1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //Declaramos las variables
-        int [][] matriz = new int[3][3];//Matriz
+        int [][] matriz = new int[4][4];//Matriz
         int DiagonalPrincipal = 0;
         int DiagonalSecundaria = 0;
         for(int i=0;i <matriz.length;i++){
