@@ -32,7 +32,7 @@ public class EjercicioMatriz7 {
         }         
         for(int i=0; i < sumF.length;i++){
             if(i % 2 == 1){
-                System.out.println("La suma de la Filas impares "+(i)+" es : "+sumF[i]);
+                System.out.println("La suma de todas las filas impares "+(i)+" es : "+sumF[i]);
             }
         }
     }

@@ -31,7 +31,7 @@ public class EjercicioMatriz3 {
         } 
         //Salida de datos
         for(int i=0; i < sumF.length;i++){
-            System.out.println("La suma de la Fila "+(i+1)+" es : "+sumF[i]);
+            System.out.println("La suma de todas las Filas "+(i+1)+" es : "+sumF[i]);
         }
     }
 }

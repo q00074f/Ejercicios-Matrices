@@ -32,7 +32,7 @@ public class EjercicioMatriz8 {
         }      
         for(int i=0; i < sumF.length;i++){
             if(i % 2 == 0 && i != 0){
-                System.out.println("La suma de la Filas pares "+(i)+" es : "+sumF[i]);
+                System.out.println("La suma de todas las filas pares "+(i)+" es : "+sumF[i]);
             }
         }
     }

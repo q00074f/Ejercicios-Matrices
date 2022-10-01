@@ -30,7 +30,7 @@ public class EjercicioMatriz4 {
             System.out.println(Arrays.toString(matriz[i]));
         }     
         for(int i=0; i < sumF.length;i++){
-            System.out.println("La suma de la Columna "+(i+1)+" es : "+sumF[i]);
+            System.out.println("La suma todas las columnas "+(i+1)+" es : "+sumF[i]);
         }
     }
 }

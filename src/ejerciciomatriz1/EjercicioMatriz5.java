@@ -33,7 +33,7 @@ public class EjercicioMatriz5 {
         } 
         for(int i=0; i < sumF.length;i++){
             if(i % 2 == 1){
-                System.out.println("La suma de la Columna impar "+(i)+" es : "+sumF[i]);
+                System.out.println("La suma de todas las columnas impares "+(i)+" es : "+sumF[i]);
             }
         }
     }
