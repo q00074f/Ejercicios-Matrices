@@ -18,8 +18,8 @@ public class EjercicioMatriz1 {
         Scanner sc = new Scanner(System.in);
         //Declaramos las variables
         int [][] matriz = new int[10][10];//Matriz
-        int sumaDiagonalPrincipal = 0;
-        int sumaDiagonalSecundaria = 0;
+        int DiagonalPrincipal = 0;
+        int DiagonalSecundaria = 0;
         //Creamos un bucle
         for(int i=0;i <matriz.length;i++){
             for(int j=0; j<matriz.length;j++){
@@ -28,11 +28,11 @@ public class EjercicioMatriz1 {
                 //matriz[i][j] = sc.nextInt();
                 //Suma de la diagonal Principal
                 if(i == j){
-                    sumaDiagonalPrincipal += matriz[i][j];
+                    DiagonalPrincipal = matriz[i][j];
                 }      
                 //Suma de la diagonal Secundaria
                 if(i+j == (matriz.length - 1)){
-                    sumaDiagonalSecundaria += matriz[i][j];
+                    DiagonalSecundaria = matriz[i][j];
                 }
             }
         }  
@@ -40,7 +40,7 @@ public class EjercicioMatriz1 {
         for(int i=0; i < matriz.length;i++){
             System.out.println(Arrays.toString(matriz[i]));
         } 
-        System.out.println("La suma de la diagonal primaria es : "+sumaDiagonalPrincipal);
-        System.out.println("La suma de la diagonal secundaria es : "+sumaDiagonalSecundaria);
+        System.out.println("La suma de la diagonal primaria es : "+DiagonalPrincipal);
+        System.out.println("La suma de la diagonal secundaria es : "+DiagonalSecundaria);
     }
 }

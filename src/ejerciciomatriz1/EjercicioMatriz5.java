@@ -18,15 +18,15 @@ public class EjercicioMatriz5 {
         int [] sumF = new int [10];
         
         for(int i=0;i <matriz.length;i++){
-            for(int j=0; j<matriz.length;j++){
-                System.out.println("Ingrese el valor de la posicion : ["+i+"]["+j+"] = ");
-                matriz[i][j] = sc.nextInt();
-                //matriz[i][j] = sc.nextInt();
-                if(j % 2 == 1){
-                    sumF[j] += matriz[i][j];
-                }
-            }
-        } 
+        for(int j=0; j<matriz.length;j++){
+            System.out.println("Ingrese el valor de la posicion : ["+i+"]["+j+"] = ");
+            matriz[i][j] = sc.nextInt();
+            //matriz[i][j] = sc.nextInt();
+            if(j % 2 == 1){
+             sumF[j] += matriz[i][j];
+                          }
+                                         }
+                                         } 
         //Imprimir la matriz
         for(int i=0; i < matriz.length;i++){
             System.out.println(Arrays.toString(matriz[i]));
