@@ -14,8 +14,8 @@ import java.util.Scanner;
 public class EjercicioMatriz3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int [][] matriz = new int[10][10];
-        int [] sumF = new int [10];
+        int [][] matriz = new int[3][3];
+        int [] sumF = new int [3];
         
         for(int i=0;i <matriz.length;i++){
             for(int j=0; j<matriz.length;j++){
