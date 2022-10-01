@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class EjercicioMatriz2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int [][] matriz = new int[10][10];//Matriz
+        int [][] matriz = new int[3][3];//Matriz
         int multiDiagonalPrincipal = 1;
         int multiDiagonalSecundaria = 1;  
         for(int i=0;i <matriz.length;i++){
