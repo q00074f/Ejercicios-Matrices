@@ -20,12 +20,9 @@ public class EjercicioMatriz2 {
             for(int j=0; j<matriz.length;j++){
                 System.out.println("Ingrese el valor de la posicion : ["+i+"]["+j+"] = ");
                 matriz[i][j] = sc.nextInt();
-                //matriz[i][j] = sc.nextInt();
-                //Principal
                 if(i == j){
                     multiDiagonalPrincipal *= matriz[i][j];
                 }                
-                //Secundaria
                 if(i+j == (matriz.length - 1)){
                     multiDiagonalSecundaria *= matriz[i][j];
                 }
