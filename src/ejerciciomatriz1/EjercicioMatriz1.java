@@ -20,26 +20,22 @@ public class EjercicioMatriz1 {
         int [][] matriz = new int[10][10];//Matriz
         int DiagonalPrincipal = 0;
         int DiagonalSecundaria = 0;
-        //Creamos un bucle
         for(int i=0;i <matriz.length;i++){
             for(int j=0; j<matriz.length;j++){
                 System.out.println("Ingrese el valor de la posicion : ["+i+"]["+j+"] = ");
                 matriz[i][j] = sc.nextInt();
-                //matriz[i][j] = sc.nextInt();
-                //Suma de la diagonal Principal
                 if(i == j){
                     DiagonalPrincipal = matriz[i][j];
                 }      
-                //Suma de la diagonal Secundaria
                 if(i+j == (matriz.length - 1)){
                     DiagonalSecundaria = matriz[i][j];
                 }
-            }
-        }  
+                                             }
+                                         }  
         //Imprimir la matriz
         for(int i=0; i < matriz.length;i++){
             System.out.println(Arrays.toString(matriz[i]));
-        } 
+                                           } 
         System.out.println("La suma de la diagonal primaria es : "+DiagonalPrincipal);
         System.out.println("La suma de la diagonal secundaria es : "+DiagonalSecundaria);
     }
